@@ -30,3 +30,11 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
     - SE un numero è multiplo di 3 E di 5, stamperò la stringa "FizzBuzz"
 - gli altri numeri saranno visualizzati con il loro valore numerico
 
+*Riflessione durante il procedimento*
+
+Seguendo il ragionamento e il procedimento precedente, nonostante il programmino funzionasse mi sono accorta che non ottenevo esattamente l'effetto desiderato in quanto dei valori si ripetevano perchè soddisfavano la condizione di essere sia multiplo di entrambi (3 e 5) sia solo di 3. Quindi ho revisionato il mio ragionamento e ho racchiuso tutto in un'istruzione condizionale:
+- SE un numero è sia multiplo di 3 && multiplo di 5, stamperò la stringa "FizzBuzz"
+    - ALTRIMENTI SE è SOLO multiplo di 3, stamperò la stringa "Fizz"
+    - ALTRIMENTI SE è SOLO multiplo di 5, stamperò la strinza "Buzz"
+ - ALTRIMENTI stamperò il valore del numero della sequenza stabilita in precedenza
+
