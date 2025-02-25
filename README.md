@@ -22,7 +22,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 *Procedimento*
 
-- andrò a creare il ciclo for, andando a inserire l'indice, condizione e incremento
+- andrò a creare il ciclo for, andando a inserire il contatore, condizione e incremento
 - verifico che ciò che ho scritto soddisfa la mia richiesta stampandolo in console
 - all'interno del ciclo, andrò a scrivere le mie istruzioni condizionali:
     - SE un numero sarà multiplo di 3, stamperò la stringa "Fizz"
