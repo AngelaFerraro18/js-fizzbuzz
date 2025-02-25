@@ -12,5 +12,21 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 ---
 
+*Ragionamento*
 
+- per stampare una serie di numeri da 1 a 100 avrò bisogno di un ciclo: for
+- i numeri **multipli** di 3 devono essere stampati come "Fizz"
+- i numeri **multipli** di 5 devono essere stampati come "Buzz"
+- i numeri **multipli** di 3 E di 5 devono essere stampati come "FizzBuzz"
+    -Per determinare che un numero sia un multiplo di un altro avrò bisogno di usare un modulo: remainder (%)
+
+*Procedimento*
+
+- andrò a creare il ciclo for, andando a inserire l'indice, condizione e incremento
+- verifico che ciò che ho scritto soddisfa la mia richiesta stampandolo in console
+- all'interno del ciclo, andrò a scrivere le mie istruzioni condizionali:
+    - SE un numero sarà multiplo di 3, stamperò la stringa "Fizz"
+    - SE un numero sarà multiplo di 5, stamperò la stringa "Buzz"
+    - SE un numero è multiplo di 3 E di 5, stamperò la stringa "FizzBuzz"
+- gli altri numeri saranno visualizzati con il loro valore numerico
 
